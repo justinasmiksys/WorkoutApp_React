@@ -1,0 +1,49 @@
+@mixin scroll-bar-style {
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: -webkit-gradient(
+      linear,
+      40% 0%,
+      75% 84%,
+      from($color-green-dark),
+      to($color-green-dark),
+      color-stop(0.6, $color-green-light)
+    );
+  }
+}
+
+@keyframes slideRight {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+
+  to {
+    right: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+
+  to {
+    left: 30px;
+    opacity: 1;
+  }
+}

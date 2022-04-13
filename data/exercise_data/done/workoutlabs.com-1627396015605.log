@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Crunches","equipment":"NO EQUIPMENT","primary":["Abs"],"secondary":[],"description":["Lie flat on your back with your feet flat on the ground, with your knees bent at 90 degrees. Alternatively, you can place your feet up on a bench a few inches apart with your toes turned inwards and touching.","Place your hands lightly on either side of your head.","Keep your elbows in  so that they are parallel to your body.","Push your back down flat into the floor to isolate your abdominal muscles.","Gently curl your shoulders forward and up off the floor.","Continue to push down into the floor with your lower back.","Raise your shoulders about four to six inches only.","Hold and squeeze your abdominal muscles for a count of one.","Return to the start position in a smooth movement."],"img_url":"https://workoutlabs.com/train/svg.php?id=32335&a=1"}
+undefined

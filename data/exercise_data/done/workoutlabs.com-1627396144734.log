@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Machine Bicep Preacher / Concentration Curls","equipment":"Full gym","primary":["Biceps"],"secondary":["Forearms"],"description":["Adjust the seat height so that you can comfortably hang your arms over the pad of the machine. Make sure your shoulders are forward, allowing you to bring your arms closer than shoulder-width.","Using an underhand grip, secure the handle of the machine bar. Keep a slight bend in the elbows at all times. Move the bar up, towards your face, focusing the tension in the biceps. Pause at the top and slowly lower to the starting position.","Do not allow the weight to touch the stack and do not lock out your elbows. Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31835&a=1"}
+undefined

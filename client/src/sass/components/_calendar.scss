@@ -1,0 +1,81 @@
+.calendar-container {
+  height: inherit;
+}
+
+.add-event-window-container {
+  position: fixed;
+  z-index: 10;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  height: 30rem;
+
+  overflow: scroll;
+  overflow-x: hidden;
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 5rem;
+}
+
+.add-event {
+  &__title {
+  }
+
+  &__list {
+  }
+
+  &__workout {
+    & button {
+      width: 100px;
+    }
+  }
+
+  &__btn-close {
+    left: 0.5rem;
+    top: 0.5rem;
+  }
+}
+
+.fc-daygrid-event-harness {
+  position: relative;
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &::after,
+  &::before {
+    visibility: hidden;
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+    z-index: 10;
+    transition: all 0.5s;
+  }
+
+  &::before {
+    top: 7px;
+  }
+
+  &::after {
+    top: 17px;
+  }
+
+  &:hover:after,
+  &:hover:before {
+    visibility: visible;
+    background-color: white;
+  }
+
+  &:hover:after {
+    transform: rotate(45deg) translateY(-7px);
+  }
+
+  &:hover:before {
+    transform: rotate(-45deg) translateY(7px);
+  }
+}

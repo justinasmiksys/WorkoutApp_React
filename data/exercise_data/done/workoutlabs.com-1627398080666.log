@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Cable Rope Overhead Triceps Extensions","equipment":"Cable station","primary":["Triceps"],"secondary":["Forearms"],"description":["Attach a rope to the bottom pulley of a cable station.","Grip the rope with both hands using a neutral grip. Turn your body away from the cable station.","Fully extend your arms until your hands are directly above your head pointing to the ceiling.","Keep your elbows  close to your head. This is the start position.","Slowly lower the rope behind your head, keeping your upper arms stationary, inhaling as you do so.","When your triceps are fully extended, hold for a count of one while squeezing your triceps.","Return to the starting position by flexing your triceps  and extending your arms. Exhale as you do so.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31283&a=1"}
+undefined

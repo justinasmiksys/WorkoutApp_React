@@ -1,0 +1,25 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Jumping Calf Presses / Raises","equipment":"NO EQUIPMENT","primary":["Calves"],"secondary":[],"description":[],"img_url":"https://workoutlabs.com/train/svg.php?id=31715&a=1"}
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM73:1 {"title":"Jumping Calf Presses / Raises","equipment":"NO EQUIPMENT","primary":["Calves"],"secondary":[],"description":["Stand up straight with your hands at your sides.","Keep your back straight and your core tight.","Forcefully press off the ground with the balls of both feet.","Launch into the air and land softly on the balls of your feet.","Focus the tension in the calf muscles, NOT the quadriceps.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31715&a=1"}
+undefined

@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM17353:1 {"title":"Ab Crunch Machine","equipment":"Full gym","primary":["Abs"],"secondary":[],"description":["Sit on the ab machine and select a slight resistance. Position your feet under the pads and grab hold of the top handles.","Make sure your arms are bent at 90 degrees and rest your triceps on the pads.","Begin lifting your legs up as you engage your abs and crunch your upper torso. Exhale as you do so.","Pause and slowly return to starting position as you inhale."],"img_url":"https://workoutlabs.com/train/svg.php?id=30967&a=1"}
+undefined

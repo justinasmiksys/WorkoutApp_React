@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Kettlebell One-Legged Deadlifts","equipment":"Kettlebells","primary":["Lower Back"],"secondary":["Abs","Glutes & Hip Flexors","Hamstrings"],"description":["Hold a kettlebell by the handle in one hand using a neutral grip.","Stand on the leg that is on the same side that you are holding the kettlebell.This is the start position.","Bending that knee slightly, bend at the hip, and extend your free leg behind you for balance.","Continue lowering the kettlebell until your torso is parallel to the ground.","Return to the upright position in a smooth movement.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31731&a=1"}
+undefined

@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Battle Rope Double Waves","equipment":"Battle Rope","primary":["Abs","Shoulders","Upper Back & Lower Traps"],"secondary":["Calves","Hamstrings","Quadriceps"],"description":["Holding a battle rope in each hand, slightly bend at the knees and maintain a tight core.","Synchronize the ropes to follow an up and down pattern.","Bring the ropes upward together to your shoulder level then downward to hip level and immediately back up.","Repeat the movement, ensuring you keep the ropes together.","Do not lock out your elbows at any point during the exercise."],"img_url":"https://workoutlabs.com/train/svg.php?id=31107&a=1"}
+undefined

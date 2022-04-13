@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Supermans / Extended Arms & Legs Lifts","equipment":"NO EQUIPMENT","primary":["Lower Back"],"secondary":["Abs"],"description":["Lie face down on a mat, with your arms fully extended above your head and your legs fully extended behind you.","Lift your chest, arms and legs off the floor by arching your back. Only the tops of your quads and your lower abdomen should be in contact with the floor.","Hold for a count of 2 while squeezing your abdominals and obliques.","Return to the starting position for a count of one, then repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=32491&a=1"}
+undefined

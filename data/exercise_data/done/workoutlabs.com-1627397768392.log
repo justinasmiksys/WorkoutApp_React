@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Barbell Step-ups","equipment":"Barbell / EZ-Bar","primary":["Glutes & Hip Flexors","Quadriceps"],"secondary":["Abs","Calves"],"description":["Set up a barbell in a rack at shoulder height.","In front of the rack, place an aerobic or exercise step on the floor.","Position yourself under the barbell so it is resting across your shoulder. Not on your neck.","Stand up straight to lift the barbell from the rack and walk forward to the step.","Place one foot on the step and push down through your heel while straightening your leg to lift yourself up onto the step and place your other foot flat on the step.Hold fora count of one.","Step down with the opposite leg to the one you started the movement with.","Repeat all the repetitions of the set for your chosen lead leg befor changing to the other."],"img_url":"https://workoutlabs.com/train/svg.php?id=31015&a=1"}
+undefined

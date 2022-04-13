@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Dumbbell Pullovers","equipment":"Dumbbells","primary":["Chest","Upper Back & Lower Traps"],"secondary":["Abs","Shoulders","Triceps"],"description":["Lie with your upper back perpendicular on a bench.","Bend your knees and place your feet flat on the floor and flex your hips so that your body is in line.","Grasp a dumbbell between your hands under the inner plate, palms facing up.","Position the weight over your chest with your elbows slightly bent.","Keep your elbows bent as you lower the dumbbell over your head until your upper arms are in line with your torso.","To return to the starting position, pull the dumbbell up and over your chest."],"img_url":"https://workoutlabs.com/train/svg.php?id=31459&a=1"}
+undefined

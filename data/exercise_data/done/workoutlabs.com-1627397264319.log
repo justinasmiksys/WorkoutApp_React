@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Dumbbell Deadlifts","equipment":"Dumbbells","primary":["Glutes & Hip Flexors","Lower Back"],"secondary":["Abs","Calves","Hamstrings","Quadriceps"],"description":["Place two dumbbells on the floor.","Stand facing the dumbbells with your feet shoulder width apart.","Bend knees and hips to lower your torso in a squatting movement,keep your back straight.","At the bottom of the squat grip the dumbbells with an overhand grip,keeping your arms fully extended.","Return to an upright position holding the dumbbells with your palms facing towards your body and extending your hips forward. Do not round your back.","Return the dumbbells to the floor in the same manner you picked them up.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31439&a=1"}
+undefined

@@ -1,0 +1,14 @@
+VM81:1 Console was cleared
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM90:1 {"title":"Cable Squat Rows / Row Squats","equipment":"Cable station","primary":["Middle Back / Lats","Quadriceps"],"secondary":["Abs","Biceps","Calves","Hamstrings"],"description":["Grip a cable handle in each hand. Stand away from the cable machine so that the slack tightens. Make sure your back is straight and your core is tight.","Bend your knees and drive your hips back while you keep your chest up. Stand back up then pull the handles back, leading with your elbows. Tighten the back muscles then return handles to the starting position.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=32375&a=1"}
+undefined

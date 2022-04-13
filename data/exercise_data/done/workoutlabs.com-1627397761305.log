@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Barbell Split Squats","equipment":"Barbell / EZ-Bar","primary":["Calves","Hamstrings","Quadriceps"],"secondary":["Abs"],"description":["Place an appropriate amount of weight on a barbell in a squat rack. Once ready, position yourself underneath the barbell. Keep your core tight and drive your hips forward to lift the barbell off the rack. Step away from the rack. Secure the barbell on your traps and make sure your core is braced before beginning.","Step out with the left foot, leaving the right foot behind. From this position, lower the back right knee towards the ground. Push up with your front left leg. Please note that you will not kick back up into a regular standing position until all repetitions have been completed.","Continue this up and down pattern. Switch sides and perform the same pattern with the right leg in front."],"img_url":"https://workoutlabs.com/train/svg.php?id=31091&a=1"}
+undefined

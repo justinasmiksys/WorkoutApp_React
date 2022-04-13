@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Machine Assisted Pull-ups / Pullups","equipment":"Full gym","primary":["Middle Back / Lats"],"secondary":["Biceps"],"description":["Select the correct weight to counterbalance your own before beginning. The heavier the weight, the easier it will be.","Reach above and use an overhand grip to secure yourself as you kneel on the padded surface of the assisted machine. Tighten your core as well as your glutes.","Lower yourself slowly. Do not lock out the elbow. Pull yourself back to the starting position but do not let the weight touch the stack. Pause and repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31831&a=1"}
+undefined

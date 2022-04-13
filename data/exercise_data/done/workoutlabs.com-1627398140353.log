@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Triceps Dips","equipment":"NO EQUIPMENT","primary":["Triceps"],"secondary":["Chest","Forearms","Shoulders"],"description":["Standing between the bars of a dip station, grip the bars with an overhand grip,keeping your elbows tucked in close to your body.","Allow your body weigh to hang so it is being supported by your arms and shoulders. Keep your hips straight.","Push down through your palms with your arms, lifting your body up until your arms are almost straight. (Do not lock your elbows)","Lower your body by slowly bending your elbows and continue down until you feel a slight stretch in your shoulders.","Pause, then push yourself back to the starting position.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31391&a=1"}
+undefined

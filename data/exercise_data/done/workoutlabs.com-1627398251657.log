@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Upright Kettlebell Front Rows","equipment":"Kettlebells","primary":["Shoulders","Upper Back & Lower Traps"],"secondary":["Abs"],"description":["Stand tall with a braced core, holding a kettlebell. Position your hands on the outside of the handle (not the top).","Focusing the tension in your shoulders and traps, pull the kettlebell up and towards your face.","Pause once your elbows are above parallel with the ground. Slowly return to the starting position and repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=32663&a=1"}
+undefined

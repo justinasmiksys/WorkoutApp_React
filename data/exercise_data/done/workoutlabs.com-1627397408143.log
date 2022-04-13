@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Close Grip Lat Pulldowns / Pull Downs / Pullovers","equipment":"Full gym","primary":["Middle Back / Lats"],"secondary":["Biceps"],"description":["Sit at a Lat Pulldown machine and secure your legs underneath the padded surface. Select an appropriate weight on the stack. Reach up to grab the barbell, taking a close-grip. Your hands should be at or closer than shoulder-width.","Tighten your core and keep your chest up as you pull the barbell down and towards your chest. Be sure to pull with your lat muscles.","Once the bar is at your chest, slowly allow it to return to the starting position but don’t let the weight stack touch. Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31319&a=1"}
+undefined

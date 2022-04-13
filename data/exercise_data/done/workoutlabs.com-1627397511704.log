@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Gymnastic Ring Pull-Ups / Pullups","equipment":"Gymnastic Rings","primary":["Middle Back / Lats","Upper Back & Lower Traps"],"secondary":["Biceps","Forearms","Shoulders"],"description":["Stand directly beneath the Gymnastic Rings ensuring that they have enough height for you to lower your body without touching the ground. ","Grip the rings so that your palms are facing inward.","Pull your chest upwards and towards the rings by bending your arms. Aim to avoid any jerking movements as this may cause the rings to swing. ","Once your chest is at its highest point, hold this position for one second before steadily lowering your body back down to the starting position. "],"img_url":"https://workoutlabs.com/train/svg.php?id=31607&a=1"}
+undefined

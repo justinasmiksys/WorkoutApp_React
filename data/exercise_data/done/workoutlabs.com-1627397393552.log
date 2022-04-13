@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Bent Over Two-Arm Long Barbell / T-Bar Rows","equipment":"Barbell / EZ-Bar","primary":["Lower Back","Middle Back / Lats"],"secondary":["Abs","Biceps","Forearms","Upper Back & Lower Traps"],"description":["Set up an Olympic (long) barbell with weight plates on one end only.","Put the other end of the bar against a wall or something heavy so it can’t slide backwards.","Straddle the bar with your knees slightly bent.","Bend forward at the waist until your torso is nearly parallel to the floor.","Grip the bar close to the weight plates with both hands, using a neutral grip. One hand in front  the other. This is the start position.","Keeping your back straight and exhaling, pull the bar straight up by bending your elbows until the plates touch your chest.","Hold and squeeze your back muscles.","Return to the start position in a slow smooth movement to place emphasis on your lats. Inhale as you do so.","Keep the bar from touching the floor.","pause then repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31155&a=1"}
+undefined

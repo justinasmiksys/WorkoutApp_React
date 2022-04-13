@@ -1,0 +1,14 @@
+VM88:1 Console was cleared
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM98:1 {"title":"Machine Seated Shoulder Press","equipment":"Full gym","primary":["Shoulders"],"secondary":["Biceps","Forearms","Triceps"],"description":["Keep a tight core and flat back as you remain seated in the shoulder press machine.","Look straight ahead as you hold on to the handles.","Slowly, press the handles up above your head.","Do not lock out your elbow.","Slowly, bring the handles back down but do not let the weight stack touch.","Repeat the movement."],"img_url":"https://workoutlabs.com/train/svg.php?id=31843&a=1"}
+undefined

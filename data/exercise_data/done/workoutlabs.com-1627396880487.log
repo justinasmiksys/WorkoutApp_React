@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Barbell Squats","equipment":"Barbell / EZ-Bar","primary":["Glutes & Hip Flexors","Quadriceps"],"secondary":["Abs","Calves","Hamstrings","Lower Back"],"description":["Set up the barbell on the squat rack so that it is at the same height as your upper chest.","Position your body under the bar, with knees bent so that the bar is resting high on the back of your shoulders.","Grip the bar with your hands comfortably wider than your shoulders.","Slowly straighten your legs to push upwards, lifting the barbell from the rack and take one step forward.","Stand with your legs shoulder width apart.","Bend your knees forward and allow your hips to bend back as if sitting down,","Continue this movement down until your thighs are parallel to the floor or slightly more, making sure your knees are pointing in the same direction as your feet.","Hold for a count of one.","Push up through your heels while straightening your hips and knees, until you are standing in the start position.","Make any adjustments necessary to your stance and grip before continuing on the next repetition."],"img_url":"https://workoutlabs.com/train/svg.php?id=31011&a=1"}
+undefined

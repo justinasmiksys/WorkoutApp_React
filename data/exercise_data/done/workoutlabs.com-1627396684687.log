@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Incline Barbell Bench Chest Press","equipment":"Barbell / EZ-Bar","primary":["Chest"],"secondary":["Abs","Shoulders","Triceps"],"description":["Set up an incline bench in front of a weight rack, making sure you adjust the incline to a comfortable position. The back of the bench should be facing the weight stack.","Sit on the bench placing your back firmly against the backrest.","Using an overhand grip, grasp the bar with your hands spaced about twice your shoulder width apart.","Lift the bar from the rack by pushing up with your chest muscles and hold it straight over your chest with your arms fully extended. This is the start position.","As you inhale, lower the barbell slowly until it touches your upper chest.","Hold for a count of one while squeezing your chest muscles.","Return to the start position as you exhale, pushing the bar using your chest muscles. Hold for a count of one.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31675&a=1"}
+undefined

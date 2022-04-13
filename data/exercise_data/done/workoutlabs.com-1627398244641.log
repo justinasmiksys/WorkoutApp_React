@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Single / One Arm Dumbbell Bench Rows","equipment":"Dumbbells","primary":["Lower Back","Upper Back & Lower Traps"],"secondary":["Abs","Biceps","Shoulders"],"description":["Place a dumbbell on each side of a flat bench.","Place your right knee on the end of the bench.","Bend your torso from the waist until your upper body is parallel to the floor, while placing your right hand on the bench in front of you for support.","With your left hand, pick up the dumbbell with an overhand grip. The palm of your hand should be facing into you.","Keep your lower back straight. This is the start position.","Using your back muscles, pull the dumbbell straight up to the side of your chest, keeping your upper arm close to your side. Exhale as you do so.","At the top of the movement, hold for a count of one and squeeze your back muscles.","Return to the start position inhaling as you do so. Repeat.","Complete all repetitions for one side before switching sides."],"img_url":"https://workoutlabs.com/train/svg.php?id=31939&a=1"}
+undefined

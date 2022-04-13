@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Bent Over Double Arm Tricep Kickbacks","equipment":"Dumbbells","primary":["Triceps"],"secondary":["Abs","Lower Back"],"description":["Holding a pair of dumbbells with an overhand grip, stand tall with your chest up and core braced. Bend at the hips while keeping your back completely flat.","Once your upper body is parallel with the floor, bring your upper arms to your sides. Begin by pushing the dumbbells back and behind you.","Pause at the top of the movement and feel the contraction in your triceps. Slowly lower the dumbbells and begin again."],"img_url":"https://workoutlabs.com/train/svg.php?id=31151&a=1"}
+undefined

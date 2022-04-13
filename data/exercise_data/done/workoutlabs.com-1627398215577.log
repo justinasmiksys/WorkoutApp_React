@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"One-Arm Kettlebell Rows","equipment":"Kettlebells","primary":["Lower Back","Upper Back & Lower Traps"],"secondary":["Abs","Biceps"],"description":["Place a kettlebell in front of you","Place your right leg forward and rest your left leg on the ball of your left foot.(Similar to a lunge stance)","Bend your knees slightly as you bend over to get in the starting position.","Keep your back straight.","Rest your right hand on your right knee for stability.","Grip the kettlebell with a neutral grip in your left hand.","Pull the kettlebell up to your stomach, retracting your shoulder blade and flexing your elbow. Keep your back straight. Lower and repeat.","Complete all the repetitions for one side before switching."],"img_url":"https://workoutlabs.com/train/svg.php?id=31919&a=1"}
+undefined

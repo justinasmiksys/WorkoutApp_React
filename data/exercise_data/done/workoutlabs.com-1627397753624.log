@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Barbell Overhead Squats","equipment":"Barbell / EZ-Bar","primary":["Calves","Hamstrings","Quadriceps"],"secondary":["Abs","Shoulders"],"description":["Place an appropriate amount of weight on a barbell in a squat rack. Position your hands in an overhand grip outside of shoulder-width on the barbell. Before beginning, make sure that your core is tight and your chest is up.","Push the barbell straight above your head, locking out your elbows. Once you feel stabilized, slowly bend the knees and drive back your hips.","Once your upper thighs come parallel with the ground, slowly push back up, returning to the starting position."],"img_url":"https://workoutlabs.com/train/svg.php?id=31067&a=1"}
+undefined

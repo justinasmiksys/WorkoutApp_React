@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Barbell Bench Press / Chest Press","equipment":"Barbell / EZ-Bar","primary":["Chest"],"secondary":["Shoulders","Triceps"],"description":["Position yourself with your back down on a flat bench placing the hands up on the bar using an underhand grip slightly wider than shoulder width apart.","After taking a deep breath in, extend the elbows and lift the bar up off the rack until elbows are extended but not locked. Pause for a brief movement as you fully extend your breath.","Lower the weight directly down to the chest as you breath inwards, keeping the movement pattern slow and steady.","Once just above the chest, pause, and then press directly up again, exhaling your breath.","Continue until all reps are completed and then re-rack the barbell."],"img_url":"https://workoutlabs.com/train/svg.php?id=31019&a=1"}
+undefined

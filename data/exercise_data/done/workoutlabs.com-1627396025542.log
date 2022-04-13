@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Hanging Leg Raises","equipment":"Full gym","primary":["Abs"],"secondary":["Forearms","Glutes & Hip Flexors"],"description":["Grip a chin up or pull up bar with a firm overhand grip.","Hang from the bar with your legs straight.","Raise your legs by flexing your hips forward and bending your knees up towards your chest.","Continue to raise your knees towards your chest by flexing your waist forward. Don’t swing your body to use momentum. Use your abdominals to pull your legs up.","Return to the starting position, lowering your legs slowly until they are straight.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31631&a=1"}
+undefined

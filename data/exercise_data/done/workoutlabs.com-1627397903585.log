@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Barbell Push and Press","equipment":"Barbell / EZ-Bar","primary":["Shoulders"],"secondary":["Abs","Glutes & Hip Flexors","Quadriceps","Triceps"],"description":["Stand with feet hip width apart and grasp a barbell with an overhand grip.","Make sure your hands are placed slightly wider than shoulder-width.","Bring the bar to chest height and slightly retract your head back.","Bend the knees, hips and ankles to dip slightly.","Use your legs to explosively drive your body upwards and drive the barbell off your shoulders, extending your arms overhead.","Lower the bar to your shoulders and repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=32019&a=1"}
+undefined

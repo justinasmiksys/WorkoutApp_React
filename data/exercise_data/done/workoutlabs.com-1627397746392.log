@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Barbell Lunges","equipment":"Barbell / EZ-Bar","primary":["Quadriceps"],"secondary":["Abs","Calves","Glutes & Hip Flexors","Hamstrings"],"description":["Set up a  barbell on a rack  at just below shoulder level.","Step under the bar placing the back of your shoulders under it. Do not rest the bar on your neck.","Grip the the bar using an overhand grip with your elbows bent to90 degrees or slightly more. Less of an angle means your hands are too close together which can cause instability of balance.","Lift the barbell clear of the rack by  pushing with your legs, while straightening your torso.","Step away from the rack.","Step forward with your right leg and squat down through your hips. Keep your back straight  and be careful to maintain your balance. Inhale as you lower yourself.","Continue lowering your body until your left knee is nearly touching the floor.","Return to the start position b pushing through your heel,exhaling as you do so.","Complete all the repetitions for one leg before switching."],"img_url":"https://workoutlabs.com/train/svg.php?id=31063&a=1"}
+undefined

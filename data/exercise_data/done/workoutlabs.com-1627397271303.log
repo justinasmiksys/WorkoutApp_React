@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Kettlebell Deadlifts","equipment":"Kettlebells","primary":["Abs","Hamstrings","Lower Back"],"secondary":["Calves","Obliques","Shoulders"],"description":["Place a kettlebell on the ground. Step over the kettlebell so that it is in the center beneath you. Move your feet to shoulder-width or just outside of shoulder-width. Tighten your core and keep your chest up.","Begin by kicking your hips back and slightly bending your knees. Extend your arms down to grab onto the kettlebell. ","Holding on to the kettlebell, drive your hips forward to stand back up. Slowly, reverse the movement by kicking your hips back and slightly bending the knees. Do not let your lower back arch."],"img_url":"https://workoutlabs.com/train/svg.php?id=31727&a=1"}
+undefined

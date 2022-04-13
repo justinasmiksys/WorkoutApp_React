@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Close-Grip Overhand Barbell Bench Press","equipment":"Barbell / EZ-Bar","primary":["Triceps"],"secondary":["Chest","Shoulders"],"description":["Lie on a flat bench with your feet flat on the floor. Make sure your back is completely flat on the bench, with no “arching” of your spine.","Grip the barbell with an overhand grip, shoulder width or slightly less than shoulder width apart. (Do not make your grip too narrow as it limits stability of the barbell which can lead to injury)","Push up using your chest and shoulders to lift the barbell above your body, then lower it slowly ( a count of 2) towards the centre of your chest. Hold for a count of one.","Without “bouncing” the weight, force the barbell back up over the middle of your chest, straightening your arms and locking your elbows once your arms are fully straight. Hold for a count of one.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31315&a=1"}
+undefined

@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Duck Walks / Squats","equipment":"NO EQUIPMENT","primary":["Glutes & Hip Flexors","Quadriceps"],"secondary":["Hamstrings"],"description":["Stand with your feet slightly wider than shoulder width apart. Bend your knees and bring yourself down into a squat until your thighs are parallel to the floor. ","Keep your chest up, your eyes focused straight ahead, and your core engaged. ","Take mini, duck-like steps forwards and backwards for the designated number of reps.","Quack quack. "],"img_url":"https://workoutlabs.com/train/svg.php?id=31419&a=1"}
+undefined

@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Back Extensions / Hyperextensions","equipment":"Full gym","primary":["Lower Back"],"secondary":["Glutes & Hip Flexors","Hamstrings"],"description":["Lie face down on a hyper extension bench with your upper thighs and lower hips on the support pad. You must be able to bend at the waist freely.","Lock your ankles under the footpads.","Start with your body in a straight line head to toe.","Place your arms across your chest, behind or at the side of your head.","Slowly bend forward by relacing your, back and abdominal muscles.","Continue as far as possible without rounding your back or raising your thighs from the support pad. You should feel a slight stretch in your hamstrings.Hold for a count of one.","Return to the start position by contracting your back and abdominal muscles until your body is once again straight. Do not arch your back up at the end of the movement. Pause and repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31003&a=1"}
+undefined

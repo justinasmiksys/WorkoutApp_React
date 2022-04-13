@@ -1,0 +1,14 @@
+VM109:1 Console was cleared
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM122:1 {"title":"Cable Hip Extensions","equipment":"Cable station","primary":["Glutes & Hip Flexors"],"secondary":["Hamstrings","Lower Back"],"description":["Attach an ankle strap around your right ankle. Stand tall in front of a cable machine with a flat back and tight core. Use the cable machine for balance, if necessary.","While balancing on your left foot, move your right foot up and back. Pause at the top of the movement then slowly bring the foot down. Do not let your right foot touch the ground before repeating.","Once finished, repeat on the other side."],"img_url":"https://workoutlabs.com/train/svg.php?id=31279&a=1"}
+undefined

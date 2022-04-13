@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM17139:1 {"title":"Barbell Windshield Wipers","equipment":"Barbell / EZ-Bar","primary":["Abs"],"secondary":["Shoulders"],"description":["Hold a lightly-loaded barbell directly above your chest, and keep your back in full contact with the floor. ","Lift both legs towards the left plate on the barbell and do your best to touch the plate lightly with your toes. ","Lower both legs down to the central position being sure not to bounce them off the ground.","Lift both legs towards the right plate on the barbell and do your best to touch the plate lightly with your toes.","Lower both legs down to the central position; this completes one rep. "],"img_url":"https://workoutlabs.com/train/svg.php?id=32727&a=1"}
+undefined

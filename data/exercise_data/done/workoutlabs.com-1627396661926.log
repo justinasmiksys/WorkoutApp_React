@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Decline Barbell Bench Press","equipment":"Barbell / EZ-Bar","primary":["Chest"],"secondary":["Abs","Shoulders","Triceps"],"description":["Set a barbell in a weight rack at the low end of a decline bench,making sure it is at a height you can reach without fully extending your arms.","Secure your feet under the stirrup, bar or strap at the high end of the bench and lie flat on your back with the rack slightly behind you.","Using an overhand grip, grip the bar with your hands about twice your shoulder width apart.","Push up to lift the bar from the rack and hold it directly over you with your arms locked. Your arms should be at 90 degrees to the floor. This is the start position.","Bend your elbows to slowly lower the barbell until it touches our chest, inhaling as you do so.","Hold for a count of one.","Return to the start position by pushing the bar using your chest muscles, exhaling as you do so.","At the top of the movement, lock your arms and squeeze your chest muscles.","Hold for a count of one. Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31367&a=1"}
+undefined

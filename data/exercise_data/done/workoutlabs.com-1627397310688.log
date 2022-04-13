@@ -1,0 +1,14 @@
+VM80:1 Console was cleared
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM91:1 {"title":"Rack Pulls","equipment":"Full gym","primary":["Lower Back"],"secondary":["Abs","Hamstrings","Quadriceps"],"description":["Set up a power rack station so that the rack is at your knee height.","Bend your knees as you drive your hips back. Keep your chest up.","Grab the barbell with an overhand or mixed grip, based on comfort and preference level.","Maintain a flat back as you stand up straight and drive your hips forward.","Pause then slowly return to the starting point."],"img_url":"https://workoutlabs.com/train/svg.php?id=32039&a=1"}
+undefined

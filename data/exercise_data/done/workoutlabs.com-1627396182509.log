@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Seated Alternating Incline Bench Dumbbell Curls","equipment":"Dumbbells","primary":["Biceps"],"secondary":["Abs","Forearms"],"description":["Set up an incline bench at 45 degrees.","Holding a dumbbell in each hand, sit on the bench, keeping your shoulders and back firmly against the back rest.","Put your arms down by your side with your palms facing in to your body.","Slowly curl your arms up, rotating your wrist outwards (thumbs pointing away from your body) until the dumbbell is level with your shoulders. (Your palms should be facing your shoulders)","Flex or squeeze your bicep at the top of the movement and hold for a count of one.","Slowly lower the dumbbells back to the start position, turning your palms back in to your body. Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=30983&a=1"}
+undefined

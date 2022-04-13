@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM58:1 {"title":"Front Barbell Squats","equipment":"Barbell / EZ-Bar","primary":["Glutes & Hip Flexors","Quadriceps"],"secondary":["Abs","Calves","Hamstrings"],"description":["Position yourself under a barbell held by a squat rack. Keeping your elbows high, place your arms up and under the bar. The bar should be resting on the front of your shoulders. Core is tight. Back is flat.","Maintaining control, lift the bar up. Bend your knees forward and allow your hips to bend back as if sitting down. Pause when thighs are parallel with the floor.","Return to the starting position and repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31591&a=1"}
+undefined

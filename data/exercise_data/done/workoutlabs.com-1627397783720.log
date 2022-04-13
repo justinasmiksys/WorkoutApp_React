@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Bulgarian Split Squats","equipment":"Dumbbells","primary":["Quadriceps"],"secondary":["Abs","Calves","Hamstrings"],"description":["Stand up straight while holding two dumbbells. Maintain a tight core and flat back as you carefully place your right foot on top of a bench behind you with toes facing down. ","Bend at the front knee as you drop the back knee, maintaining perfect form. Front knee should not go over the toes.","Allow your thigh to come to parallel with the floor.","Pause then slowly return to the starting position without locking out your knee.","Repeat then switch sides once set is complete."],"img_url":"https://workoutlabs.com/train/svg.php?id=31247&a=1"}
+undefined

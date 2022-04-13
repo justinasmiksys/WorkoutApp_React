@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"TRX Suspension Strap T Flyes","equipment":"Suspension straps / TRX","primary":["Upper Back & Lower Traps"],"secondary":["Middle Back / Lats","Shoulders"],"description":["Grab on to a secured TRX band with each hand. Bring your feet together. Stand up completely straight while bracing the core. Extend your arms up directly in front of you and slowly lean back, letting the TRX band support you.","Bring your arms out to each side, allowing your upper back and lower traps to pull you back up to a standing position. Again, maintain a completely straight posture.","Immediately, reverse the movement, slowly bringing your arms together as you lean back."],"img_url":"https://workoutlabs.com/train/svg.php?id=32603&a=1"}
+undefined

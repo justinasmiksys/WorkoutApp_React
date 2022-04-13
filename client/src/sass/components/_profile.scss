@@ -1,0 +1,146 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 1px 1px 6px #adadad;
+  }
+
+  &__email {
+    margin-left: 10px;
+    color: $color-green-dark;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: default;
+  }
+
+  &__btn {
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #adadad;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $color-green-dark;
+      color: $color-light;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 2rem;
+    }
+
+    &--active {
+      box-shadow: none;
+      background-color: $color-green-dark;
+      color: $color-light;
+    }
+  }
+}
+
+.btn-logout {
+  border: none;
+  border-radius: 20px;
+  background: transparent;
+
+  &:hover {
+    border-radius: 20px;
+  }
+
+  &__icon {
+    width: 34px;
+    height: 34px;
+    color: $color-green-dark;
+    border-radius: 20px;
+    padding: 5px;
+
+    &:hover {
+      color: #fff;
+      background-color: $color-green-dark;
+      cursor: pointer;
+    }
+  }
+}
+
+.list {
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  &__workout {
+    button {
+      margin-top: 10px;
+      padding: 8px;
+      border-radius: 20px;
+      border: 0px;
+      box-shadow: 1px 1px 6px #adadad;
+      background-color: white;
+      color: $color-green-dark;
+      font-weight: bold;
+      font-size: 16px;
+      width: 300px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $color-green-dark;
+        color: white;
+      }
+
+      &:active {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.btn-new {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px #adadad;
+  background: transparent;
+  width: 24px;
+  margin: 10px auto;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-green-dark;
+  }
+
+  &:hover &__icon {
+    color: white;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &__icon {
+    width: 28px;
+    height: 28px;
+    color: $color-green-dark;
+  }
+}

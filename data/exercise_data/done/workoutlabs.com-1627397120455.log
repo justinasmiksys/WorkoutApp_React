@@ -1,0 +1,14 @@
+VM81:1 Console was cleared
+undefined
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ul li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM92:1 {"title":"Reverse Dumbbell Lunges","equipment":"Dumbbells","primary":["Hamstrings","Quadriceps"],"secondary":["Abs","Calves"],"description":["Stand up straight with a tight core, holding the dumbbells at your sides.","Slowly, step back with your right leg. Your toes should be straight and facing forward.","Keep the front knee bent.","Bend and lower the back knee to where it is just above the ground.","Step forward to the starting position."],"img_url":"https://workoutlabs.com/train/svg.php?id=32131&a=1"}
+undefined

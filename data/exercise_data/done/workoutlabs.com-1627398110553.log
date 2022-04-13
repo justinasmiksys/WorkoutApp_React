@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Flat Bench Barbell Skull Crushers","equipment":"Barbell / EZ-Bar","primary":["Triceps"],"secondary":["Abs"],"description":["Holding a preacher curl barbell with an overhand grip, carefully sit on a bench. Slowly lie back and bring the barbell above your head. Make sure that your feet are flat on the floor and your core is braced.","Keep the upper arms in place as you bend at the elbow and allow the forearms to slowly dip back towards your head.","Once the barbell reaches the bottom, pause and slowly push the barbell back to the starting position."],"img_url":"https://workoutlabs.com/train/svg.php?id=31531&a=1"}
+undefined

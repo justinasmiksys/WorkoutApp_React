@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Seated Single Arm Overhead Dumbbell Tricep Extensions","equipment":"Dumbbells","primary":["Shoulders","Triceps"],"secondary":[],"description":["Sit on a bench while holding a dumbbell in your left hand with an overhand grip. Tighten your core and straighten your lower back. Lift the dumbbell to shoulder height.","Push the dumbbell overhead with your palm facing forward. Keep the upper arm in place. Slowly bend at the elbow and lower the weight behind your head.","Push the dumbbell back up over your head squeezing the tricep muscle. Immediately begin the next repetition. Switch sides once you have completed all repetitions."],"img_url":"https://workoutlabs.com/train/svg.php?id=32235&a=1"}
+undefined

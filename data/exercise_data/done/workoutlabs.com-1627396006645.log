@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM59:1 {"title":"Captain's Chair Leg / Knee / Hip Raises","equipment":"Full gym","primary":["Abs"],"secondary":["Lower Back"],"description":["Place your forearms are on the pads or bars of the apparatus you are using and grip the handles or bars. Your arms should be bent at 90 degrees and your upper arms in a straight line with your sides.","Your torso should be straight and your lower back pressed against the pad of the bench if using one.","Keep your legs extended and pointing down to the floor. This is the start position.","Exhale and as you do so, lift your legs up in a smooth arc bending at the knees until your thighs are about parallel to the floor. Hold for a count of one.","Return to the start position in a smooth, controlled movement while inhaling.","Repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=31751&a=1"}
+undefined

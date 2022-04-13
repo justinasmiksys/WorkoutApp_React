@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Diamond / Pyramid / Triceps Push-ups / Pushups","equipment":"NO EQUIPMENT","primary":["Triceps"],"secondary":["Abs","Chest","Shoulders"],"description":["Position yourself on all fours on a mat.","Place your hands in front of you and shoulder-width apart.","Now bring your hands in towards the center until the tips of your index fingers and tips of your thumbs are touching. This creates a diamond shape between your hands. Your elbows and wrists should be in line with your chest.","With your fingers facing forwards, lift off your knees so that your body forms a straight line and just your hands and toes touch the floor.","Keep you pelvis straight and abs engaged and aim to keep a straight back throughout the movement.","Bend your elbows and lower your body towards the floor, aiming to touch your chest to the top of your hands. Pause briefly.","Return to the starting position by extending your elbows and lifting your body off the floor again."],"img_url":"https://workoutlabs.com/train/svg.php?id=31387&a=1"}
+undefined

@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Tricep Cable Rope Push /Pull Downs","equipment":"Cable station","primary":["Triceps"],"secondary":["Abs","Forearms"],"description":["Set up a cable station with a straight bar on attached to the top pulley.","Grip the bar with an overhand grip,with your hands slightly less than shoulder width apart.","Position your feet shoulder width apart,with knees slightly bent for stability.","Pull the bar down until your forearms are parallel to the floor with your elbows close to your body and your wrists locked in a straight position. This is your staring point.","Moving only your forearms, push the bar down towards the floor until your arms are fully extended and you feel a stretch in your triceps. Hold for a count of one and squeeze your triceps.","Return to the start position moving your forearms only. Hold for a count of one then repeat."],"img_url":"https://workoutlabs.com/train/svg.php?id=32631&a=1"}
+undefined

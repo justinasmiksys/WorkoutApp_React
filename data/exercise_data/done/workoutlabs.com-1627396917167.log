@@ -1,0 +1,13 @@
+jquery-migrate.min.js?ver=3.3.2:2 JQMIGRATE: Migrate is installed, version 3.3.2
+console.log(JSON. stringify(
+{
+title:document.querySelector('.exTtl').textContent,
+equipment:document.querySelector('.i1 .metaVal .ffGothamMedium').textContent,
+primary: Array.prototype.slice.call(document.querySelectorAll('.i2 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+secondary: Array.prototype.slice.call(document.querySelectorAll('.i3 .metaVal .ffGothamMedium')).map(element=>element.textContent),
+description:Array.prototype.slice.call(document.querySelectorAll('.exMeta .right ol li')).map(element=>element.textContent),
+img_url:document.querySelector('.exAnim').dataset.murl
+}
+))
+VM57:1 {"title":"Cable Pull Throughs/Pulls","equipment":"Cable station","primary":["Glutes & Hip Flexors"],"secondary":["Hamstrings"],"description":["With your back facing the cable station and the cable resting on the floor between your feet, bend at your knees and take a firm grip of the cable in both hands.","Keeping your knees bent at a 45 degree angle, pull the cable up so that it is resting between your knees.","With a firm grip on the cable extend your knees and drive your body upwards using your glutes as the prime mover.","Hold the top portion while tensing your glutes.","Slowly lower yourself back down to the starting position to complete 1 rep."],"img_url":"https://workoutlabs.com/train/svg.php?id=38551&a=1"}
+undefined
